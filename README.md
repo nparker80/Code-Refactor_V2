@@ -18,8 +18,7 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-Refactored Webpage URL:
-https://nparker80.github.io/Code-Refactor_V2/
+Refactored Webpage URL: https://nparker80.github.io/Code-Refactor_V2/
 
 Refactored Webpage Screenshot:
 ![Screenshot](Horieson_Screenshot.png)
