@@ -1,0 +1,193 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sets background color */
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    /* Sets padding on all sides to 20px */
+    padding: 20px;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Sets background color */
+    background-color: #2a607c;
+    /* Sets font color */
+    color: #ffffff;
+}
+
+.header h1 {
+    /* Sets display of all elements with class selector to inline */
+    display: inline-block;
+    /* Font-size property sets the size of a font */
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    /* Sets font color */
+    color: #d9dcd6;
+}
+
+.header section {
+    /* Sets top only padding to 15px */
+    padding-top: 15px;
+    /* Sets right margin to 20px */
+    margin-right: 20px;
+    /* Sets text to float right of Horieson text */
+    float: right;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Font-size property sets the size of a font */
+    font-size: 20px;
+}
+
+/* Removes the markers/bullets to none */
+.header section nav {
+    list-style-type: none;
+}
+
+.header section nav li {
+    /* Sets display of all elements with class selector to inline */
+    display: inline-block;
+    /* Sets left margin to 25px */
+    margin-left: 25px;
+}
+
+a {
+    /* Sets font color */
+    color: #ffffff;
+    /* Sets text-decoration line to none */
+    text-decoration: none;
+}
+
+/* Sets paragraph font size to 16px */
+p {
+    font-size: 16px;
+}
+
+.hero {
+    /* Sets the height and width of the hero */
+    height: 800px;
+    width: 100%;
+    /* Sets bottom margin to 25px */
+    margin-bottom: 25px;
+    /* Sets background image of the hero */
+    background-image: url("Images\Staircase.jpg");
+    /* Sets backgrund image large enough to cover the hero */
+    background-size: cover;
+    /* Sets the position of the hero to the center of the screen*/
+    background-position: center;
+}
+
+.float-left {
+    /* Sets img to float left of text */
+    float: left;
+    /* Sets right margin to 25px */
+    margin-right: 25px;
+}
+
+.float-right {
+    /* Sets img to float right of text */
+    float: right;
+    /* Sets left margin to 25px */
+    margin-left: 25px;
+}
+
+.content {
+    /* Sets width to 75% */
+    width: 75%;
+    /* Sets display of all elements with class selector to inline */
+    display: inline-block;
+    /* Sets left margin to 20px */
+    margin-left: 20px;
+}
+
+.content-item {
+    /* Sets bottom margin to 20px */
+    margin-bottom: 20px;
+    /* Sets padding on all sides to 50px */
+    padding: 50px;
+    /* Sets the height to 300px */
+    height: 300px;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Sets background color */
+    background-color: #0072bb;
+    /* Sets font color */
+    color: #ffffff;
+}
+
+/* Sets max height of img to 200px */
+.content-item img {
+    max-height: 200px;
+}
+
+.content-item h2 {
+    /* Sets bottom margin to 20px */
+    margin-bottom: 20px;
+    /* Font-size property sets the size of a font */
+    font-size: 36px;
+}
+
+.benefit {
+    /* Sets right margin to 20px */
+    margin-right: 20px;
+    /* Sets padding on all sides to 20px */
+    padding: 20px;
+    /* Pushes elements below both left and right floated elements */
+    clear: both;
+    /* Sets img to float right of text */
+    float: right;
+    /* Sets width to 20% */
+    width: 20%;
+    /* Sets height to 100% */
+    height: 100%;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Sets background color */
+    background-color: #2589bd;
+}
+
+.benefit-sidebar {
+    /* Sets bottom margin to 32px */
+    margin-bottom: 32px;
+    /* Sets font color */
+    color: #ffffff;
+}
+
+.benefit-sidebar h3 {
+    /* Sets bottom margin to 10px */
+    margin-bottom: 10px;
+    /* Sets text alignment to center */
+    text-align: center;
+}
+
+.benefit-sidebar img {
+    /* Sets img to block element */
+    display: block;
+    /* Sets image to center and margin to 10px */
+    margin: 10px auto;
+    /* Sets max width of img to 150px */
+    max-width: 150px;
+}
+
+.footer {
+    /* Sets padding on all sides to 30px */
+    padding: 30px;
+    /* Pushes elements below both left and right floated elements */
+    clear: both;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Sets text alignment to center */
+    text-align: center;
+}
+
+/* Font-size property sets the size of a font */
+.footer h2 {
+    font-size: 20px;
+}
